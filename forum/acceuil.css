@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* En-tête */
+.head_menu {
+    background-color: #8B0000;
+    color: #fff;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.head_menu .div_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.head_menu .menu_1 .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.head_menu .menu_2 .nav_menu {
+    display: flex;
+    gap: 20px;
+    margin-right: 50px;
+}
+
+.head_menu .menu_2 .list_menu {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+   
+}
+
+.head_menu .menu_2 .list_menu:hover {
+    color: #ffd700;
+}
+
+.h1{
+    text-align: center;
+}
+
+.image img{
+    height: 450px;
+    width: 1252.5px;
+    
+}
+
+.categorie{
+    display: flex;
+    justify-content: center; /* Aligne les éléments horizontalement au centre */
+    align-items: center;    /* Aligne les éléments verticalement au centre */
+    height: 100vh;
+    text-align: center;
+    
+    
+}
+
+.categorie img{
+    height: 150px;
+    width: 220px;
+    border-radius: 15px;
+}
+
+.categorie .sous_categorie{
+    border: 1px solid #000;
+    margin-bottom:20px ;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+footer{
+    text-align: center;
+    border: 1px solid transparent;
+    background-color: dimgray;
+    
+    
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover{
+    color: #000;
+}
+
+/*css footer*/
+
+footer p{
+    text-align: center;
+}
+
+footer{
+    background-color: darkgrey;
+    color: #fff;
+    
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icon {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.45rem;
+    color: #fff; /* Gris foncé */
+    border-radius: 50%;
+    border: 1px solid #fff; /* Gris foncé */
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: 0.3s;
+  }
+  
+  .social-icon:hover {
+    color: #8B0000; /* Violet */
+    border-color: #8B0000; /* Violet */
+  }

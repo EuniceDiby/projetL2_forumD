@@ -1,0 +1,119 @@
+/* Style global pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* En-tête */
+.head_menu {
+    background-color: #8B0000;
+    color: #fff;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.head_menu .div_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.head_menu .menu_1 .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.head_menu .menu_2 .nav_menu {
+    display: flex;
+    gap: 20px;
+}
+
+.head_menu .menu_2 .list_menu {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.head_menu .menu_2 .list_menu:hover {
+    color: #ffd700;
+}
+
+/* Conteneur principal pour la liste des catégories */
+.container {
+    width: 80%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-left: 15%;
+}
+
+/* Titre principal */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+/* Tableau des catégories */
+table.categories-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* En-tête du tableau */
+table.categories-table th {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Cellules du tableau */
+table.categories-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Lien vers les sujets */
+table.categories-table td a {
+    text-decoration: none;
+    color: #007BFF;
+    display: block;
+    font-size: 18px;
+}
+
+/* Effet au survol des liens */
+table.categories-table td a:hover {
+    color: #0056b3;
+}
+
+/* Bouton de retour */
+a.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+/* Effet au survol du bouton de retour */
+a.back-button:hover {
+    background-color: #0056b3;
+}

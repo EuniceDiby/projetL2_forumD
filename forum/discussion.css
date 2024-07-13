@@ -1,0 +1,71 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.head_menu {
+    background-color: #8B0000;
+    padding: 10px 0;
+}
+
+.div_menu {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+}
+
+.nav_menu a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+
+.nav_menu a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.discussions-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.discussions-table th, .discussions-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.discussions-table th {
+    background-color: #f8f8f8;
+}
+
+.discussions-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}

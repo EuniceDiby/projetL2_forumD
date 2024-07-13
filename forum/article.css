@@ -1,0 +1,177 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* En-tête */
+.head_menu {
+    background-color: #8B0000;
+    color: #fff;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.head_menu .div_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.head_menu .menu_1 .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.head_menu .menu_2 .nav_menu {
+    display: flex;
+    gap: 20px;
+}
+
+.head_menu .menu_2 .list_menu {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.head_menu .menu_2 .list_menu:hover {
+    color: #ffd700;
+}
+
+.show-contenu, .show-answers {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.show-contenu h3 {
+    margin-top: 0;
+}
+
+.show-answers .form-label {
+    font-weight: bold;
+}
+
+.card {
+    background: #f9f9f9;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+}
+
+.card-header .avatar {
+    background: #007bff;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.card-header .author {
+    font-weight: bold;
+}
+
+.card-body {
+    padding-top: 10px;
+}
+
+.card-footer {
+    margin-top: 10px;
+}
+
+.btn-primary {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-warning {
+    background-color: #f0ad4e;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-danger {
+    background-color: #d9534f;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary:hover, .btn-warning:hover, .btn-danger:hover {
+    opacity: 0.9;
+}
+
+/* Style pour le formulaire de réponse */
+.show-answers {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    margin-left: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.show-answers .form-label {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.show-answers textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.show-answers input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.show-answers .mb-3 button[type="submit"] {
+    background: #FF5733;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin-top: 10px;
+}
+
+.show-answers button[type="submit"]:hover {
+    opacity: 0.9;
+}
